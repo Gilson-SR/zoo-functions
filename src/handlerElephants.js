@@ -33,4 +33,4 @@ const handlerElephants = (param) => {
   return computeData(param, elephants);
 };
 
-module.exports = handlerElephants; // sala 65 rodrigo gomide
+module.exports = handlerElephants;
