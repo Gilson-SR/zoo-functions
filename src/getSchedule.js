@@ -17,7 +17,11 @@ function infoOpening() {
     };
     return acc;
   }, {});
-  
+  openingHours.Monday = {
+    officeHour: 'CLOSED',
+    exhibition: 'The zoo will be closed!',
+  };
+  return openingHours;
 }
 
 module.exports = getSchedule;
